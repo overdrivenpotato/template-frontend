@@ -1,0 +1,11 @@
+node_modules
+build
+
+### macOS ###
+*.DS_Store
+
+### Vim ###
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]

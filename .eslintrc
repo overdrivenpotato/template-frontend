@@ -1,0 +1,21 @@
+{
+  extends: [
+    'standard',
+    'standard-react',
+    'plugin:flowtype/recommended',
+  ],
+  plugins: [
+    'flowtype',
+  ],
+  parserOptions: {
+    sourceType: 'module',
+    failOnError: true,
+  },
+  globals: {
+    fetch: false,
+  },
+  rules: {
+    'comma-dangle': [ 'error', 'always-multiline' ],
+    'max-len': [ 'error', 80 ],
+  },
+}

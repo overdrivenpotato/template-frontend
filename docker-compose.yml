@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+    db:
+        image: 'mongo'
+        volumes:
+            - ./db/:/data/db/
+        ports:
+            - "23456:27017"
